@@ -1,0 +1,1697 @@
+
+> pokemon-vue@1.0.0 dev
+> vite --host
+
+
+  [32m[1mVITE[22m v6.4.6[39m  [2mready in [0m[1m458[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.137.1:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.6:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.25.192.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m00:19:26[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:28[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:47[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/shop[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:47[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:51[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/skills[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:51[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/gyms[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:56[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/chapters[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:56[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:57[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:19:57[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:05[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:06[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:06[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:07[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:07[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:17[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:18[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:18[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:20[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:22[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:22[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:23[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:23[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:23[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:23[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:25[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:25[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:25[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:25[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:26[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:26[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:29[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:30[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:34[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:35[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:39[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:45[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:47[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:20:59[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:00[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:00[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:05[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:11[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:11[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:11[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:11[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:19[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:26[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:29[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:29[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:32[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:32[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=11[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:37[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:51[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:51[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:56[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:21:57[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:01[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:06[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:06[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:07[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:11[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:22[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:26[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:27[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:32[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:37[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:37[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:47[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:22:56[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:23:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:23:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:23:27[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:23:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:23:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:23:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:23:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:03[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:06[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:11[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:11[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/gyms[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:18[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:18[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/gyms[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:23[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:29[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:32[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:24:57[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:25:24[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:25:24[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:25:29[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:25:34[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/NavBar.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/Tools.vue, /src/views/Lore.vue[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/router/index.js[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/AdminLogin.vue, /src/views/AdminLogin.vue?vue&type=style&index=0&scoped=f2aac0b3&lang.css[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue, /src/components/NavBar.vue?vue&type=style&index=0&scoped=c3ceb15a&lang.css[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue, /src/views/Gyms.vue?vue&type=style&index=0&scoped=2d09e27d&lang.css[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue, /src/views/Adventure.vue?vue&type=style&index=0&scoped=9c4cbac4&lang.css[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue, /src/views/Trainer.vue?vue&type=style&index=0&scoped=91f69081&lang.css[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Login.vue, /src/views/Login.vue?vue&type=style&index=0&scoped=08aaad4e&lang.css[22m
+[2m00:40:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/NavBar.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue[22m
+[2m00:41:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m00:41:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m00:41:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m00:41:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m00:41:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m00:42:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m00:42:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue?vue&type=style&index=0&scoped=91f69081&lang.css[22m
+[2m00:42:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/NavBar.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue[22m
+[2m00:42:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m00:42:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/GameIcon.vue[22m
+[2m00:43:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/GameIcon.vue[22m
+[2m00:43:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Market.vue[22m
+[2m00:54:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m00:55:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m00:56:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue?vue&type=style&index=0&scoped=2d09e27d&lang.css[22m
+[2m01:02:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:02:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:05:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:05:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:05:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue?vue&type=style&index=0&scoped=c3ceb15a&lang.css[22m
+[2m01:05:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:06:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:06:58[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue[22m
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/skills[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/shop[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/skills[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:20[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/Tools.vue, /src/views/Lore.vue[22m
+[2m01:07:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:27[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:30[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/user/login[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:30[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:32[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:32[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:36[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:51[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:53[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:56[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:58[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:58[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:58[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:07:58[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:03[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:06[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/gyms[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/chapters[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:10[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/router/index.js[22m
+[2m01:08:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:17[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:17[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:17[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:17[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:23[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:08:28[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/gyms[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:08:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:08:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:53[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:08:56[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:56[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:57[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:58[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:59[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:08:59[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:03[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:03[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:08[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=zzz[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue?vue&type=style&index=0&scoped=91f69081&lang.css[22m
+[2m01:09:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:17[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:17[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/chapters[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:18[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:18[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:18[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:21[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:23[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:26[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:27[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:27[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/chapters[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:28[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:09:28[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:14:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m01:15:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:15:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:16:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:16:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:16:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:16:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:16:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m01:17:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m01:17:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m01:19:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:19:53[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:19:53[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:19:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:19:57[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:39[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:39[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/shop[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:41[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/skills[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:21:55[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:22:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:22:12[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/gyms[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:22:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:22:20[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:22:24[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:22:40[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:23:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:23:52[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:23:53[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:23:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/save[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:25:00[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:25:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/load[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:25:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:25:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/pokemon/list[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:25:51[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:27:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:27:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/chapters[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:27:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:27:47[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:27:47[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/gyms[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:14[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:19[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:24[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:29[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:34[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:39[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:39[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:54[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:28:59[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/heartbeat[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:04[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:09[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/challenges?username=qqq[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:13[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/shop[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:15[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/skills[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:16[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/shop[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:25[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:25[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/skills[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:30[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:29:47[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:30:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:30:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:30:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NavBar.vue[22m
+[2m01:30:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:30:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:31:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m01:31:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Home.vue[22m
+[2m01:31:31[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:31:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Home.vue[22m
+[2m01:31:37[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:32:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Categories.vue[22m
+[2m01:32:29[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/game/announcements[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m01:32:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Categories.vue[22m
+[2m01:32:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Pokedex.vue[22m
+[2m01:32:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Pokedex.vue[22m
+[2m01:33:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Pokedex.vue[22m
+[2m01:33:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Pokedex.vue[22m
+[2m01:33:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Pokedex.vue[22m
+[2m01:33:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Pokedex.vue[22m
+[2m01:34:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m01:37:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/StarterSelect.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/Categories.vue[22m
+[2m01:37:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/StarterSelect.vue[22m
+[2m01:37:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/StarterSelect.vue[22m
+[2m01:37:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/StarterSelect.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/Categories.vue[22m
+[2m01:44:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Login.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Trainer.vue, /src/views/AdminLogin.vue, /src/views/Pokedex.vue[22m
+[2m01:44:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Login.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Trainer.vue, /src/views/AdminLogin.vue, /src/views/Pokedex.vue[22m
+[2m01:45:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Pokedex.vue[22m
+[2m01:49:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Login.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Trainer.vue, /src/views/AdminLogin.vue, /src/views/Pokedex.vue[22m
+[2m01:49:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m01:49:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/localStore.js[22m
+[2m01:58:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m01:58:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Market.vue[22m
+[2m01:58:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist_qa_check/index.html[22m
+[2m01:59:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m01:59:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Login.vue[22m
+[2m02:00:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Login.vue[22m
+[2m02:00:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist_qa_check/index.html[22m
+[2m02:00:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist_qa_check/index.html[22m
+[2m02:03:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:03:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:03:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:03:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:03:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:03:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:04:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:04:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:04:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:04:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:04:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:04:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:04:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue?vue&type=style&index=0&scoped=9c4cbac4&lang.css[22m
+[2m02:04:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue?vue&type=style&index=0&scoped=9c4cbac4&lang.css[22m
+[2m02:05:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:05:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:06:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue?vue&type=style&index=0&scoped=710072a6&lang.css[22m
+[2m02:06:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue?vue&type=style&index=0&scoped=710072a6&lang.css[22m
+[2m02:06:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:06:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:06:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:06:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:06:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:07:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:07:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue?vue&type=style&index=0&scoped=2d09e27d&lang.css[22m
+[2m02:07:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue?vue&type=style&index=0&scoped=2d09e27d&lang.css[22m
+[2m02:07:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:07:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:07:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:07:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:07:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:08:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue?vue&type=style&index=0&scoped=91f69081&lang.css[22m
+[2m02:08:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue?vue&type=style&index=0&scoped=91f69081&lang.css[22m
+[2m02:08:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist_qa_check/index.html[22m
+[2m02:09:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist_build_final/index.html[22m
+[2m02:12:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue, /src/views/Tools.vue, /src/views/Lore.vue, /src/views/Categories.vue[22m
+[2m02:12:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:13:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:13:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:13:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:13:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:13:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:13:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:13:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:13:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:13:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:13:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Gyms.vue[22m
+[2m02:13:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Adventure.vue[22m
+[2m02:13:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:13:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:13:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Battle.vue[22m
+[2m02:14:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue[22m
+[2m02:14:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue[22m
+[2m02:14:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue[22m
+[2m02:14:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue?vue&type=style&index=0&scoped=c1be7394&lang.css[22m
+[2m02:15:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:15:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:17:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:17:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:17:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/StarterSelect.vue, /src/views/Login.vue, /src/views/Home.vue, /src/components/AnnouncementBar.vue, /src/views/Market.vue, /src/views/Battle.vue, /src/views/Gyms.vue, /src/views/Adventure.vue, /src/views/Trainer.vue, /src/views/Pokedex.vue, /src/views/PokeCenter.vue[22m
+[2m02:17:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue[22m
+[2m02:17:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue, /src/views/PokeCenter.vue?vue&type=style&index=0&scoped=c1be7394&lang.css[22m
+[2m02:18:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist_build_skill/index.html[22m
+[2m02:21:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue[22m
+[2m02:21:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue?vue&type=style&index=0&scoped=c1be7394&lang.css[22m
+[2m02:21:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue[22m
+[2m02:21:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue[22m
+[2m02:21:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/PokeCenter.vue?vue&type=style&index=0&scoped=c1be7394&lang.css[22m
+[2m02:21:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue[22m
+[2m02:21:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/Trainer.vue?vue&type=style&index=0&scoped=91f69081&lang.css[22m
+[2m02:22:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist_build_exp/index.html[22m
+^C

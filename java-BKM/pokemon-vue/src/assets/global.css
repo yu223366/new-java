@@ -1,0 +1,238 @@
+/* ============ 精灵宝可梦 · 动漫原著风格 全局样式 ============
+   配色取自官方角色设定：
+   皮卡丘黄 #FFCB05 / 精灵球红 #EE1515 / 图鉴蓝 #3B4CCA
+   属性色卡取自官方属性配色
+*/
+:root {
+  /* ===== 主色：柔和宝可梦蓝（机房屏幕友好，不刺眼）===== */
+  --poke-blue: #4C6EF5;
+  --poke-blue-dark: #3B5BDB;
+  --poke-blue-soft: #EDF1FF;
+  /* ===== 辅助色：浅橙 ===== */
+  --poke-orange: #FFB067;
+  --poke-orange-dark: #F59F4A;
+  --poke-orange-soft: #FFF4E6;
+  /* 兼容旧变量名：黄色已统一为浅橙 */
+  --poke-yellow: #FFC46B;
+  --poke-yellow-dark: #F5A94D;
+  /* ===== 强调色：柔和宝可梦红（精灵球，仅少量使用）===== */
+  --poke-red: #E85D4A;
+  --poke-red-dark: #D14836;
+  /* ===== 文字与背景：深灰 + 浅灰蓝 ===== */
+  --ink: #33383F;
+  --ink-light: #6B7280;
+  --bg: #F5F7FB;
+  --card: #ffffff;
+  --line: #E5E9F2;
+  --shadow: 0 8px 24px rgba(76, 110, 245, .10);
+  --radius: 16px;
+  /* ===== 状态色 ===== */
+  --state-ok: #34A853;
+  --state-warn: #F2A623;
+  --state-err: #E05252;
+  --state-lock: #9AA3B2;
+
+  /* 官方属性配色 */
+  --type-fire: #FD7D24; --type-water: #4592C4; --type-grass: #9BCC50;
+  --type-electric: #EED535; --type-ice: #51C4E7; --type-fighting: #D56723;
+  --type-poison: #B97FC9; --type-ground: #AB9842; --type-flying: #3DC7EF;
+  --type-psychic: #F366B9; --type-bug: #729F3F; --type-rock: #A38C21;
+  --type-ghost: #7B62A3; --type-dragon: #53A4CF; --type-dark: #707070;
+  --type-steel: #9EB7B8; --type-fairy: #EE99AC; --type-normal: #A4ACAF;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  min-height: 100vh;
+}
+a { color: var(--poke-blue); text-decoration: none; }
+button { font-family: inherit; cursor: pointer; border: none; }
+input, select, textarea { font-family: inherit; }
+
+/* 精灵球风格背景 */
+.poke-bg {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255,203,5,.22), transparent 26%),
+    radial-gradient(circle at 88% 82%, rgba(59,76,202,.12), transparent 30%),
+    linear-gradient(160deg, #fffef8 0%, #eef2fb 100%);
+}
+.poke-bg::before {
+  content: ""; position: absolute; top: -160px; left: -160px;
+  width: 420px; height: 420px; border-radius: 50%;
+  background: linear-gradient(180deg, rgba(238,21,21,.06) 0 50%, rgba(255,255,255,.6) 50% 100%);
+  border: 3px solid rgba(33,33,33,.05);
+}
+.poke-bg::after {
+  content: ""; position: absolute; bottom: -140px; right: -140px;
+  width: 360px; height: 360px; border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255,203,5,.18) 0 50%, rgba(255,255,255,.5) 50% 100%);
+  border: 3px solid rgba(33,33,33,.05);
+}
+
+.page { position: relative; z-index: 1; }
+
+.btn {
+  padding: 12px 26px; border-radius: 30px; font-size: 16px;
+  font-weight: 700; letter-spacing: 1px;
+  transition: transform .15s, box-shadow .15s;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.btn:active { transform: translateY(0); }
+.btn-primary { background: linear-gradient(135deg, var(--poke-blue), var(--poke-blue-dark)); color: #fff; }
+.btn-yellow { background: linear-gradient(135deg, var(--poke-yellow), var(--poke-yellow-dark)); color: var(--ink); }
+.btn-blue { background: linear-gradient(135deg, var(--poke-blue), var(--poke-blue-dark)); color: #fff; }
+.btn-ghost { background: #fff; color: var(--poke-blue); border: 2px solid var(--poke-blue); }
+.btn-sm { padding: 7px 16px; font-size: 13px; border-radius: 20px; }
+
+/* 精灵球图标 */
+.pokeball {
+  display: inline-block; width: 18px; height: 18px; border-radius: 50%;
+  background: linear-gradient(180deg, var(--poke-red) 0 50%, #fff 50% 100%);
+  border: 2px solid var(--ink); position: relative; vertical-align: -3px;
+}
+.pokeball::after {
+  content: ""; position: absolute; left: 50%; top: 50%;
+  width: 6px; height: 6px; background: #fff; border: 2px solid var(--ink);
+  border-radius: 50%; transform: translate(-50%, -50%);
+}
+
+/* 属性标签配色（官方属性色） */
+.type {
+  display: inline-block; padding: 3px 12px; border-radius: 20px;
+  font-size: 12px; font-weight: 700; color: #fff; text-transform: capitalize;
+}
+.type-火 { background: var(--type-fire); }
+.type-水 { background: var(--type-water); }
+.type-草 { background: var(--type-grass); color: #3d6212; }
+.type-电 { background: var(--type-electric); color: #6b5800; }
+.type-超能力 { background: var(--type-psychic); }
+.type-幽灵 { background: var(--type-ghost); }
+.type-一般 { background: var(--type-normal); }
+.type-毒 { background: var(--type-poison); }
+.type-飞行 { background: var(--type-flying); color: #1a5a6b; }
+.type-格斗 { background: var(--type-fighting); }
+.type-冰 { background: var(--type-ice); color: #155e75; }
+.type-地面 { background: var(--type-ground); }
+.type-虫 { background: var(--type-bug); }
+.type-岩石 { background: var(--type-rock); }
+.type-龙 { background: var(--type-dragon); }
+.type-恶 { background: var(--type-dark); }
+.type-钢 { background: var(--type-steel); color: #333; }
+.type-妖精 { background: var(--type-fairy); color: #7a2a45; }
+
+/* 稀有度徽章 */
+.badge { font-size: 11px; padding: 3px 10px; border-radius: 12px; font-weight: 700; background: #eee; color: #666; }
+.badge.lv-传说 { background: #fff3cd; color: #b8860b; }
+.badge.lv-史诗 { background: #f3e8ff; color: #8a2be2; }
+.badge.lv-稀有 { background: #e7f3ff; color: #3b4cca; }
+.badge.lv-普通 { background: #eef0f2; color: #777; }
+
+/* ============ 通用页面版式（9 大模块共用） ============ */
+.wrap { max-width: 1200px; margin: 0 auto; padding: 26px 20px 70px; }
+.page-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; border-left: 6px solid var(--poke-yellow); padding-left: 14px; margin-bottom: 22px; }
+.page-head h1 { font-size: 28px; color: var(--ink); letter-spacing: 1px; }
+.page-head .sub { color: var(--ink-light); font-size: 13px; }
+
+.panel { background: #fff; border: 2px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: 0 4px 14px rgba(0, 0, 0, .04); }
+.panel + .panel { margin-top: 18px; }
+.panel h3 { font-size: 18px; margin-bottom: 12px; color: var(--ink); display: flex; align-items: center; gap: 8px; }
+.panel h4 { font-size: 15px; margin-bottom: 8px; color: var(--poke-red); }
+
+.grid-auto { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.grid-wide { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+.tab-btn { padding: 8px 18px; border-radius: 22px; background: #fff; border: 2px solid var(--line); font-weight: 700; font-size: 13px; color: var(--ink); transition: all .15s; }
+.tab-btn:hover { border-color: var(--poke-yellow); }
+.tab-btn.active { background: var(--poke-red); color: #fff; border-color: var(--poke-red); }
+
+.chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { padding: 6px 15px; border-radius: 20px; background: #fff; border: 2px solid var(--line); font-size: 13px; color: var(--ink); }
+.chip:hover { border-color: var(--poke-yellow); }
+.chip.active { background: var(--poke-red); color: #fff; border-color: var(--poke-red); }
+
+.empty-tip { text-align: center; padding: 50px 20px; color: var(--ink-light); font-size: 14px; }
+.empty-tip .big { font-size: 44px; display: block; margin-bottom: 10px; }
+
+.bar { height: 14px; background: #eef0f4; border-radius: 10px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--poke-yellow), var(--poke-red)); border-radius: 10px; transition: width .6s ease; }
+
+.record-list { list-style: none; }
+.record-list li { display: flex; align-items: center; gap: 10px; padding: 10px 4px; border-bottom: 1px dashed var(--line); font-size: 13px; }
+.record-list li:last-child { border-bottom: none; }
+.record-list .time { color: #aaa; font-size: 12px; font-variant-numeric: tabular-nums; }
+
+.stat-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; margin-bottom: 8px; font-size: 13px; }
+.stat-row .stat-label { color: var(--ink-light); font-weight: 700; }
+
+.hint-line { font-size: 12px; color: var(--ink-light); line-height: 1.7; }
+.tagline { display: inline-block; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; background: #eef2ff; color: var(--poke-blue); }
+
+.divider { height: 1px; background: var(--line); margin: 14px 0; }
+
+/* ============ 全局轻提示 Toast ============ */
+.toast-wrap { position: fixed; left: 50%; top: 84px; transform: translateX(-50%); z-index: 9999; display: flex; flex-direction: column; gap: 8px; align-items: center; pointer-events: none; }
+.toast { max-width: 84vw; padding: 10px 20px; border-radius: 14px; font-size: 13.5px; font-weight: 700; color: #fff; background: #4a5568; box-shadow: 0 10px 26px rgba(0, 0, 0, .18); line-height: 1.5; }
+.toast-success { background: linear-gradient(135deg, #43c48b, #2e9e4f); }
+.toast-warn { background: linear-gradient(135deg, #f0b429, #d98f00); color: #3d2b00; }
+.toast-error { background: linear-gradient(135deg, #ef6b6b, #d63b3b); }
+.toast-info { background: linear-gradient(135deg, #5b7cf5, #3b4cca); }
+.toast-pop-enter-active, .toast-pop-leave-active { transition: all .26s ease; }
+.toast-pop-enter-from, .toast-pop-leave-to { opacity: 0; transform: translateY(-10px) scale(.96); }
+
+/* ============ 通用按钮/卡片补充 ============ */
+.btn-sm-ghost { padding: 6px 14px; border-radius: 18px; font-size: 12px; font-weight: 700; background: #fff; border: 2px solid var(--line); color: var(--ink); }
+.btn-sm-ghost:hover { border-color: var(--poke-yellow); }
+.lock-tip { text-align: center; padding: 34px 20px; color: var(--ink-light); font-size: 13.5px; line-height: 1.9; }
+.lock-tip .ico { font-size: 40px; display: block; margin-bottom: 8px; }
+
+/* ============ 通用交互与状态（UI 精修） ============ */
+.hover-lift { transition: transform .18s ease, box-shadow .18s ease; }
+.hover-lift:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+
+/* 状态色：成功 / 警告 / 失败 / 锁定 */
+.state-ok { color: var(--state-ok); }
+.state-warn { color: var(--state-warn); }
+.state-err { color: var(--state-err); }
+.state-lock { color: var(--state-lock); }
+.bg-ok { background: #E8F6EC; color: #1E8449; }
+.bg-warn { background: #FFF6E0; color: #9A6800; }
+.bg-err { background: #FDECEC; color: #B33B3B; }
+.bg-lock { background: #F0F2F6; color: #7A8291; }
+.dot-state { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: middle; background: currentColor; }
+
+/* 锁定内容统一置灰、不可点 */
+.is-locked { filter: grayscale(.75); opacity: .62; cursor: not-allowed; }
+
+/* loading 骨架 */
+@keyframes skel { 0% { background-position: -200px 0 } 100% { background-position: 200px 0 } }
+.skeleton {
+  background: linear-gradient(90deg, #EEF1F7 25%, #F8FAFD 37%, #EEF1F7 63%);
+  background-size: 400px 100%;
+  animation: skel 1.2s ease-in-out infinite;
+  border-radius: 10px;
+}
+
+/* 通用 loading 旋转 */
+.spinner {
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 4px solid #E5E9F2; border-top-color: var(--poke-blue);
+  animation: spin-anim .9s linear infinite; display: inline-block;
+}
+@keyframes spin-anim { to { transform: rotate(360deg) } }
+
+/* 对战命中特效 */
+@keyframes hit-shake {
+  0%, 100% { transform: translateX(0) }
+  20% { transform: translateX(-7px) }
+  40% { transform: translateX(7px) }
+  60% { transform: translateX(-4px) }
+  80% { transform: translateX(4px) }
+}
+.hit-anim { animation: hit-shake .36s ease; }
+@keyframes hit-flash { 0%, 100% { filter: none } 30% { filter: brightness(2.1) drop-shadow(0 0 8px #fff) } 60% { filter: brightness(1.35) } }
+.hit-flash { animation: hit-flash .36s ease; }

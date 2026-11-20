@@ -2,7 +2,7 @@
  * 端到端全功能测试：两个账号跑一遍所有后端接口
  * 账号：qaA_1795110873 / qaB_1795110873
  */
-const BASE = 'http://localhost:8081'
+const BASE = 'http://192.168.68.29:8081'
 const UA = 'qaA_1795110873'
 const UB = 'qaB_1795110873'
 let pass = 0, fail = 0
@@ -25,6 +25,11 @@ function ck(name, cond, detail = '') {
 }
 
 async function main() {
+  console.log('===== 0. 准备测试账号（幂等）=====')
+  // 测试账号可能尚未注册（全新数据库），先确保存在，已存在则接口会返回失败，忽略即可
+  await api('/api/user/register', { method: 'POST', body: JSON.stringify({ username: UA, password: '123456' }) })
+  await api('/api/user/register', { method: 'POST', body: JSON.stringify({ username: UB, password: '123456' }) })
+
   console.log('===== 1. 用户与权限 =====')
   let r = await api('/api/user/login', { method: 'POST', body: JSON.stringify({ username: UA, password: '123456' }) })
   ck('A 登录 role=1', r.code === 200 && r.data.role === 1, JSON.stringify(r))

@@ -69,9 +69,9 @@ npm install
 npm run dev
 ```
 
-浏览器打开终端显示的地址（默认 `http://localhost:5173`）。
+浏览器打开终端显示的地址（当前配置为本机局域网 IP `http://192.168.68.29:5173`）。
 
-> 想让同学 / 手机访问时，Vite 已开启 `host: true`（监听所有网卡），把 `localhost` 换成本机局域网 IP 即可（用 `ipconfig` 查看）。
+> 当前前后端已显式绑定到本机 IP `192.168.68.29`（前端 `vite.config.js` 的 `host`、后端 `application.properties` 的 `server.address`），局域网 / 手机可直接用该 IP 访问；绑定后 `localhost` 不再可用。若换机器或 IP 变化，修改 `vite.config.js`、`application.properties` 及 `.env` 中的地址即可；想恢复监听所有网卡，把 `host` 与 `server.address` 改为 `0.0.0.0`。
 
 ### Windows 用户（推荐，一键脚本）
 
@@ -102,9 +102,10 @@ npm run dev
 复制 `.env.example` 为 `.env`，按需修改：
 
 ```env
-VITE_API_MODE=          # 留空=自动；local=强制离线；online=强制在线
-VITE_PORT=5173          # 前端端口
-VITE_API_TARGET=http://localhost:8081   # 后端地址
+VITE_API_MODE=                          # 留空=自动；local=强制离线；online=强制在线
+VITE_HOST=192.168.68.29                 # 前端监听地址（0.0.0.0=所有网卡）
+VITE_PORT=5173                          # 前端端口
+VITE_API_TARGET=http://192.168.68.29:8081  # 后端地址
 ```
 
 ## 📁 目录结构

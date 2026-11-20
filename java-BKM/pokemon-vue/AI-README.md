@@ -42,7 +42,7 @@ C:\Users\Administrator\Desktop\springBootTest\   # 后端（可选，桌面同�
 - Java 17.0.12 在 PATH；Maven **不在 PATH**，在 `C:\Users\Administrator\.m2\wrapper\dists\apache-maven-3.9.9\3477a4f1\bin\mvn.cmd`（脚本自动递归探测）
 - Node：系统可能在 PATH；WorkBuddy 托管 v22 在 `~/.workbuddy/binaries/node/...`；脚本按「PATH→托管→DevEco→常规目录」顺序探测
 - 前端端口 5173，后端端口 8081
-- 已还原为默认配置：无 `.env`、`vite.config.js` 用 `host: true`、后端 `application.properties` 无 `server.address`（默认 0.0.0.0）；访问地址 `http://localhost:5173` / `http://localhost:8081`
+- 当前配置：无 `.env`；前后端已显式绑定本机局域网 IP `192.168.68.29`（`vite.config.js` 的 `host` + `package.json` 的 dev 脚本已去掉 `--host`；后端 `application.properties` 的 `server.address`）；访问地址 `http://192.168.68.29:5173` / `http://192.168.68.29:8081`。绑定后 localhost 不可用；数据库连接仍走 localhost（MySQL root 仅授权 localhost，勿改成 IP）。
 
 ## 关键坑（务必记住）
 
@@ -62,7 +62,7 @@ C:\Users\Administrator\Desktop\springBootTest\   # 后端（可选，桌面同�
 # 方式3：手动命令
 cd pokemon-vue
 npm install --no-audit --no-fund   # node_modules 被删时才需要
-npm run dev                        # http://localhost:5173
+npm run dev                        # http://192.168.68.29:5173
 
 # 后端（可选，在线模式）
 cd ../springBootTest
@@ -132,6 +132,6 @@ java -jar target/springBootTest-0.0.1-SNAPSHOT.jar --server.port=8081
 ## 后端自测（在线模式）
 
 ```bash
-curl -s --noproxy '*' -X POST http://127.0.0.1:8081/api/user/register -H "Content-Type: application/json" -d '{"username":"testuser","password":"123456"}'
-curl -s --noproxy '*' -X POST http://127.0.0.1:8081/api/user/login -H "Content-Type: application/json" -d '{"username":"testuser","password":"123456"}'
+curl -s --noproxy '*' -X POST http://192.168.68.29:8081/api/user/register -H "Content-Type: application/json" -d '{"username":"testuser","password":"123456"}'
+curl -s --noproxy '*' -X POST http://192.168.68.29:8081/api/user/login -H "Content-Type: application/json" -d '{"username":"testuser","password":"123456"}'
 ```

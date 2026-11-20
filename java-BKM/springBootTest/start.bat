@@ -1,7 +1,12 @@
 @echo off
 chcp 936 >nul
 title 宝可梦后端服务 - 端口8081
-cd /d "%~dp0"
+cd /d "%~dp0springBootTest"
+if not exist "pom.xml" (
+    echo [错误] 未找到 springBootTest\pom.xml，后端无法启动。
+    pause
+    exit /b 1
+)
 echo ============================================================
 echo   精灵宝可梦 后端服务 (SpringBoot + MyBatis-Plus)
 echo ============================================================

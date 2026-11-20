@@ -42,7 +42,7 @@
 直接让用户**双击** `C:\Users\Administrator\Desktop\一键启动宝可梦项目.bat`。
 它会自动：打开【后端窗口】(停止旧服务→编译→java -jar 8081) 和【前端窗口】(依赖存在则跳过安装→npm run dev 5173)，并自动打开浏览器。
 
-**用户反馈"卡在 cmd 页面"的真相**：服务窗口本来就会一直显示日志停在那里（java/npm 是前台常驻命令），这是正常的，不是卡住！只要窗口里出现 `Started SpringBootTestApplication`(后端) 和 `Local: http://localhost:5173`(前端) 就是成功了，直接看浏览器即可。脚本已优化：依赖存在时跳过 npm install(不再等4分钟)、自动开浏览器、无多余 pause 嵌套。若浏览器没自动开，手动访问 http://localhost:5173。
+**用户反馈"卡在 cmd 页面"的真相**：服务窗口本来就会一直显示日志停在那里（java/npm 是前台常驻命令），这是正常的，不是卡住！只要窗口里出现 `Started SpringBootTestApplication`(后端) 和 `Network: http://192.168.68.29:5173/`(前端) 就是成功了，直接看浏览器即可。脚本已优化：依赖存在时跳过 npm install(不再等4分钟)、自动开浏览器、无多余 pause 嵌套。若浏览器没自动开，手动访问 http://192.168.68.29:5173（当前前后端已绑定本机 IP 192.168.68.29，绑定后不再显示 `Local:` 且 localhost 不可用）。
 
 若需 AI 用命令行启动（注意后台进程需用工具的后台任务机制，普通 `&` 会被回收）：
 
@@ -88,8 +88,8 @@ npm run dev
 
 ```bash
 # 注册 → 用注册账号登录 → 成功即后端完成
-curl -s --noproxy '*' -X POST http://127.0.0.1:8081/api/user/register -H "Content-Type: application/json" -d '{"username":"testuser123","password":"abc123"}'
-curl -s --noproxy '*' -X POST http://127.0.0.1:8081/api/user/login -H "Content-Type: application/json" -d '{"username":"testuser123","password":"abc123"}'
+curl -s --noproxy '*' -X POST http://192.168.68.29:8081/api/user/register -H "Content-Type: application/json" -d '{"username":"testuser123","password":"abc123"}'
+curl -s --noproxy '*' -X POST http://192.168.68.29:8081/api/user/login -H "Content-Type: application/json" -d '{"username":"testuser123","password":"abc123"}'
 ```
 
 ## 八、前端页面
@@ -97,7 +97,7 @@ curl -s --noproxy '*' -X POST http://127.0.0.1:8081/api/user/login -H "Content-T
 - `/login` 登录、`/register` 注册
 - `/home` 首页（搜索栏、导航栏、图鉴卡片、分级分类筛选、后台按钮仅管理员可见、点击卡片看详情弹窗）
 - `/admin-login` 后台登录、`/admin` 后台数据管理（增删改查，支持双属性）
-- 前端通过 vite 代理 `/api` → `http://localhost:8081`
+- 前端通过 vite 代理 `/api` → `http://192.168.68.29:8081`
 
 ## 九、动漫原著还原（2026-11-19 更新）
 
